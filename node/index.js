@@ -9,7 +9,6 @@ const config = {
 }
 const mysql = require('mysql')
 const connection = mysql.createConnection(config)
-
 const sqlInsert = `INSERT INTO people(name) values('Jorge')`
 connection.query(sqlInsert)
 const sqlSelect = `select name from people`;

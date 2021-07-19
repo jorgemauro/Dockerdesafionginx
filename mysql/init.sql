@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS `people`;
+CREATE TABLE `people` (
+  `id` int(6) NOT NULL AUTO_INCREMENT,
+  `name` varchar(30) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=33 DEFAULT CHARSET=latin1;
